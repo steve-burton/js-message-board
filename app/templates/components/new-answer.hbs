@@ -1,0 +1,22 @@
+{{yield}}
+{{#if addNewAnswer}}
+  <h2>Add an answer</h2>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="commenter">Name</label>
+        {{input value=commenter id="commenter" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Answer</label>
+        {{input value=content id="content" class="form-control"}}
+      </div>
+
+      <button  class="btn"{{action 'saveAnswer'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn" {{action 'answerFormShow'}}>Add an answer</button>
+{{/if}}
+<div class="btn"> {{#link-to 'index'}}Return home{{/link-to}}</div>

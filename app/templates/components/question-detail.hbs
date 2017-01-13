@@ -4,4 +4,9 @@
   <p class="author">{{question.author}} asks:</p>
   <p class="notes">{{question.notes}}</p><br>
 </div>
+<div class="answer-entry">
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</div>
 <button class="btn btn-danger" {{action 'delete' blog}}>Delete question</button>

@@ -11,6 +11,7 @@ export default Ember.Component.extend({
     updateQuestionForm() {
       this.set('updateQuestionForm', true);
     },
+    
     update(question) {
       var params = {
         author: this.get('author'),
