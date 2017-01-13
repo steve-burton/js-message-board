@@ -1,10 +1,11 @@
 {{yield}}
 <div class="question-entry">
+  <br><p class="author">{{question.author}} asks:</p>
   <h3>{{question.ask}}</h3>
-  <p class="author">{{question.author}} asks:</p>
-  <p class="notes">{{question.notes}}</p><br>
+  <p class="notes">Notes: {{question.notes}}</p><br>
 </div>
 <div class="answer-entry">
+  hello
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}

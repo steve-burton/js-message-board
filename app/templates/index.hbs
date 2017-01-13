@@ -1,7 +1,7 @@
 {{outlet}}
 <div>
   <div class="question-list">
-    {{#each model as |question|}}
+    {{#each model.questions as |question|}}
       {{question-tile question=question}}
     {{/each}}
   </div>
