@@ -1,7 +1,7 @@
 {{yield}}
 <div class="question-entry">
-  <h3>{{question.question}}</h3>
-  <p class="author">By {{question.author}}</p>
+  <h3>{{question.ask}}</h3>
+  <p class="author">{{question.author}} asks:</p>
   <p class="notes">{{question.notes}}</p><br>
 </div>
 <button class="btn btn-danger" {{action 'delete' blog}}>Delete question</button>

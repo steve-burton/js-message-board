@@ -5,7 +5,7 @@ export default Ember.Component.extend({
     saveQuestion() {
       var params = {
         author: this.get('author') ? this.get('author') : "",
-        question: this.get('question') ? this.get('question') : "",
+        ask: this.get('ask') ? this.get('ask') : "",
         notes: this.get('notes') ? this.get('notes') : "",
       };
       this.sendAction('saveQuestion', params);

@@ -1,6 +1,6 @@
 {{yield}}
 {{#if updateQuestionForm}}
-  <h3>Update {{question.question}}</h3>
+  <h3>Update {{question.ask}}</h3>
   <div>
     <form>
       <div class="form-group">
@@ -9,8 +9,8 @@
       </div>
 
       <div class="form-group">
-        <label for="question">Question</label>
-        {{input value=question id="question" placeholder=question.question class="form-control"}}
+        <label for="ask">Question</label>
+        {{input value=ask id="ask" placeholder=question.ask class="form-control"}}
       </div>
 
       <div class="form-group">
@@ -18,7 +18,7 @@
         {{input value=notes id="notes" placeholder=question.notes class="form-control"}}
       </div>
 
-      <button  class="btn" {{action 'update' blog}}>Save</button>
+      <button  class="btn" {{action 'update' question}}>Save</button>
     </form>
   </div>
 {{else}}
