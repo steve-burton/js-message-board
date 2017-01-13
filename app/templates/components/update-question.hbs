@@ -1,5 +1,5 @@
 {{yield}}
-<!-- {{#if updateQuestionForm}} -->
+{{#if updateQuestionForm}}
   <h3>Update {{question.question}}</h3>
   <div>
     <form>
@@ -21,7 +21,7 @@
       <button  class="btn" {{action 'update' blog}}>Save</button>
     </form>
   </div>
-<!-- {{else}}
+{{else}}
   <button  class="btn"{{action 'updateQuestionForm'}}>Update</button>
-{{/if}} -->
+{{/if}}
 <div class="btn"> {{#link-to 'index'}}Return home{{/link-to}}</div>
