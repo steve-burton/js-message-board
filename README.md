@@ -1,7 +1,10 @@
-# message-board
+# Message Board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### January 13, 2017
+
+### By Steve Burton
+
+This application creates a message board where users can submit questions, and other users can respond with answers.
 
 ## Prerequisites
 
@@ -25,28 +28,20 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+None.
 
-### Running Tests
+## Support and contact details
 
-* `ember test`
-* `ember test --server`
+You can contact me on Github at steve-burton.
 
-### Building
+## Technologies Used
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+JavaScript, Ajax, jQuery, Gulp, Node, Bower HTML, Sass, Bootstrap
 
-### Deploying
+### License
 
-Specify what it takes to deploy your app.
+GPL
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 **_Steve Burton_**
