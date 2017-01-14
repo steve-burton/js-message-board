@@ -11,7 +11,11 @@ export default Ember.Component.extend({
     updateQuestionForm() {
       this.set('updateQuestionForm', true);
     },
-    
+
+    destroyAnswer(answer) {
+      this.sendAction('destroyAnswer', answer);
+    },
+
     update(question) {
       var params = {
         author: this.get('author'),

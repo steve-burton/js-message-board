@@ -54,3 +54,22 @@ form {
 div .spacer {
   height: 10px;
 }
+
+span img.xIcon {
+  width: 12px;
+}
+
+.delete-x:hover {
+  width: 30px;
+  height: 20px;
+  font-size: .9em;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.delete-x {
+  margin-left: 5px;
+  height: 30px;
+  font-size: .8em;
+  font-weight: 400;
+}
