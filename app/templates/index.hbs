@@ -1,6 +1,8 @@
 {{outlet}}
 <div>
   <div class="question-list">
+    <h4>Click on a question to answer it</h4>
+    <div class="spacer"></div>
     {{#each model.questions as |question|}}
       {{question-tile question=question}}
     {{/each}}
